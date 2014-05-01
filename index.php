@@ -66,19 +66,19 @@ get_header(); ?>
           <img class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/wdev140.png" alt="Generic placeholder image">
           <h2>CMS</h2>
           <p>Your content management system is the engine for pushing your message to the world. Find out how we can help ensure your content is be presented in the most consistent and comprehensive way possible.</p>
-          <p><a class="btn btn-default" href="services.php#cms" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="?page_id=8#cms" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/droid140.png" alt="Generic placeholder image">
           <h2>Mobile</h2>
           <p>We can help you with your mobile apps needs whether they are for your services or just an app idea that you want to turn into a reality.<br><br></p>
-          <p><a class="btn btn-default" href="services.php#mobile" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="?page_id=8#mobile" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/sap140.png" alt="Generic placeholder image">
           <h2>ERP & CRM</h2>
           <p>We will work together with you to take your Information Systems to where they need to be to make your project take flight.<br><br></p>
-          <p><a class="btn btn-default" href="services.php#ecommerce" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="?page_id=8#ecommerce" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
