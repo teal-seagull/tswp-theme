@@ -4,6 +4,8 @@
  *
  * Used for both single and index/archive/search.
  *
+ * @package WordPress
+ * @subpackage tealseagull
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
