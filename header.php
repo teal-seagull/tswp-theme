@@ -46,17 +46,18 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class=""><a href="index.php">Home</a></li>
-            <li class=""><a href="about.php">About</a></li>
+            <li class=""><a href="?page_id=6">About</a></li>
+	    <li class=""><a href="?page_id=10">Blog</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="services.php#cms">Content Management Solutions</a></li>
+                <li><a href="?page_id=8#cms">Content Management Solutions</a></li>
                 <li class="divider"></li>
-                <li><a href="services.php#ecommerce">E-Commerce Solutions</a></li>
+                <li><a href="?page_id=8#ecommerce">E-Commerce Solutions</a></li>
                 <li class="divider"></li>
-                <li><a href="services.php#sap">Information Systems Consulting</a></li>
+                <li><a href="?page_id=8#sap">Information Systems Consulting</a></li>
                 <li class="divider"></li>
-                <li><a href="services.php#mobile">Mobile Solutions</a></li>
+                <li><a href="?page_id=8#mobile">Mobile Solutions</a></li>
               </ul>
             </li>
           </ul>
