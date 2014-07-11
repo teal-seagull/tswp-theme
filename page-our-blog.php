@@ -4,24 +4,16 @@ Template Name: Blog Template
 */
 get_header(); ?>
 
-<?php
-$myposts = get_posts('');
-foreach($myposts as $post) : 
-	setup_postdata($post);
-?>
-<div class="post-item">
-	<div class="post-info">
-		<h2 class="post-title">
-			<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
-				<?php the_title(); ?>
-			</a>
-		</h2>
-		<p class="post-meta">Posted by <?php the_author(); ?></p>
-	</div>
-	<div class="post-content">
-		<?php the_content(); ?>
-	</div>
-</div>
-<?php endforeach; wp_reset_postdata(); ?>
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
 
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php get_template_part( 'content', 'page' ); ?>
+				<?php comments_template( '', true ); ?>
+			<?php endwhile; // end of the loop. ?>
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

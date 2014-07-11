@@ -5,7 +5,8 @@
  * Displays all of the <head> section and menu
  *
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
 <![endif]-->
@@ -51,13 +52,13 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="?page_id=8#cms">Content Management Solutions</a></li>
+		<li><a href="?page_id=8#sap">Information Systems Consulting</a></li>
                 <li class="divider"></li>
+		<li><a href="?page_id=8#mobile">Mobile Solutions</a></li>
+		<li class="divider"></li>
                 <li><a href="?page_id=8#ecommerce">E-Commerce Solutions</a></li>
                 <li class="divider"></li>
-                <li><a href="?page_id=8#sap">Information Systems Consulting</a></li>
-                <li class="divider"></li>
-                <li><a href="?page_id=8#mobile">Mobile Solutions</a></li>
+                <li><a href="?page_id=8#cms">Content Management Solutions</a></li>
               </ul>
             </li>
           </ul>
