@@ -1,0 +1,63 @@
+<?php get_header(); ?>
+    <div class="container marketing">
+
+        <!-- START THE FEATURETTES -->
+        <a id="sap"></a>
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">ERP & CRM <br/><span class="text-muted">Better Coordination and Cooperation</span></h2>
+              <p class="lead">Enterprise information systems, such as Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM), are powerful and complex pieces of software that require skillful customization and implementation in order to maximize productivity, increase efficiency and reduce costs.  </p>
+          </div>
+          <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="http://tealseagull.com/assets/img/sap-500.png" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <a id="mobile"></a>
+        <div class="row featurette">
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="http://tealseagull.com/assets/img/android-500.png" alt="Generic placeholder image">
+          </div>
+          <div class="col-md-7">
+              <h2 class="featurette-heading">Android Development <br/><span class="text-muted">Speed up your business.</span></h2>
+              <p class="lead">Growing businesses need to speed up their processes and workflows, specially the ones that take place on the field. Mobile applications have helped to improve efficiency by providing real time information wherever your location is. If you are looking for a custom tool that helps your business manage information effectively, our team is able to identify your needs and help you deliver the information that will make the difference. For end customers, our team will soon offer iOS development as well. Some of our application features:</p>
+              <p class="lead">
+                <ul>
+                    <li>Business applications that enhance workflows</li>
+                    <li>Facebook integration</li>
+                    <li>Geo-location solutions. ¿Which of my team members is the most suitable to get the work done based on his location?</li>
+                </ul>
+              </p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <a id="ecommerce"></a>
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">E-Commerce <br/><span class="text-muted">Empowering your online business.</span></h2>
+              <p class="lead">We are passionate about creating world-class, vibrant digital spaces where you can effectively market your products and services as well as actively engage your customers through unique user experiences. From stunning theme/catalog designs to analytic strategy to total back-end integration, we are committed to coming alongside your business and making our creativity a vital part of your engine of success.</p>
+          </div>
+          <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="http://tealseagull.com/assets/img/ecommerce-500.png" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <a id="cms"></a>
+        <div class="row featurette">
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="http://tealseagull.com/assets/img/cms-500.png" alt="Generic placeholder image">
+          </div>
+          <div class="col-md-7">
+              <h2 class="featurette-heading">Content Management Systems <br/><span class="text-muted">Centralized and shared content.</span></h2>
+              <p class="lead">Content management systems are at the cutting edge of web presence today, allowing for a truly rich way to push information at high velocity in various directions. However, there are many factors to consider as well as expertise in various technologies needed to implement a truly appropriate CMS system. We bring the knowledge, expertise and commitment in order to produce an engaging, easily-administered custom CMS for your business or organization. Because your content deserves it.</p>
+          </div>
+        </div>
+
+    </div> <!-- /container -->
+<?php get_footer(); ?>
