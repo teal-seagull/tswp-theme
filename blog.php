@@ -9,10 +9,10 @@ get_header(); ?>
 		<div id="content" role="main">
 		<?php if ( have_posts() ) : ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', get_post_format() ); ?>
-			<?php endwhile; ?>
+			<?php /* Start the Loop */ ?>			<div class="container">
+				<?php while ( have_posts() ) : the_post(); ?>				
+					<?php get_template_part( 'content', get_post_format() ); ?>
+				<?php endwhile; ?>			</div>
 
 			<?php tealseagull_content_nav( 'nav-below' ); ?>
 
